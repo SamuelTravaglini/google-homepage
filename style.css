@@ -3,4 +3,31 @@ body {
     color: #222;
 }
 
+#lga {
+    margin-top: 47px;
+}
 
+#hplogo {
+    display: inline-block;
+    position: relative;
+    height: 180px;
+    width: 500px;
+    padding-top: 21px;
+}
+
+.sbti {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, .87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -37px;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    margin-left: 500px;
+}

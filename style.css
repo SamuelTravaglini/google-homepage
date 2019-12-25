@@ -16,7 +16,7 @@ body {
 }
 
 .sbti {
-    background-color: transparent;
+    background-color: red;
     border: none;
     margin: 0;
     padding: 0;
@@ -29,5 +29,15 @@ body {
     font: 16px arial, sans-serif;
     line-height: 34px;
     height: 34px !important;
-    margin-left: 500px;
 }
+
+div#searchform {
+    background-color: green;
+    text-align: center;
+}
+
+div#sbb {
+    background-color: red;
+    display: inline-block;
+}
+

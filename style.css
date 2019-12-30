@@ -1,18 +1,69 @@
 body {
     background: #fff;
     color: #222;
+    font-family: Arial, sans-serif;
 }
 
-#lga {
-    margin-top: 47px;
+#left-menu {
+    position: absolute;
+    top: 12px;
+    left: -15px;
+}
+
+#right-menu {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+
+ul.upper {
+    list-style-type: none;
+    height: 36px;
+    padding-left: 40px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+li {
+    display: inline;
+    padding-right: 10px;
+}
+
+li a {
+    text-decoration: none;
+    padding-right: 5px;
+    color: #222;
+}
+
+button {
+    border: 0.5px solid #e6e6e6;
+}
+
+button#sign_in {
+    width: 80px;
+    background: rgb(37, 130, 236);
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#main {
+    text-align: center;
 }
 
 #hplogo {
     display: inline-block;
-    position: relative;
     height: 180px;
-    width: 500px;
-    padding-top: 21px;
+    margin-top: 89px;
+}
+
+img#glogo{
+    height: 101px;
+    width: 282px;
+    padding-top: 109px;
 }
 
 .sbti {

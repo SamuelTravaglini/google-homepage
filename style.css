@@ -2,52 +2,93 @@ body {
     background: #fff;
     color: #222;
     font-family: Arial, sans-serif;
+    font-size: 13px;
 }
 
-#left-menu {
+#left-navbar {
     position: absolute;
-    top: 12px;
+    top: 10px;
     left: -15px;
 }
 
-#right-menu {
+#right-navbar {
     position: absolute;
-    right: 10px;
+    right: 12px;
     top: 0px;
 }
 
-ul.upper {
+#apps-icon {
+    height: 24px;
+    width: 24px;
+    position: relative;
+    top: 8px;
+    opacity: 0.75;
+}
+
+nav ul {
     list-style-type: none;
-    height: 36px;
-    padding-left: 40px;
-    margin-top: 14px;
-    margin-bottom: 14px;
+}
+
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
 
 li {
-    display: inline;
-    padding-right: 10px;
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
 
-li a {
+nav li {
+    display: inline;
+    padding-right: 15px;
+}
+
+nav li a {
     text-decoration: none;
-    padding-right: 5px;
-    color: #222;
+    opacity: 0.7;
+    color: #000;
 }
 
 button {
-    border: 0.5px solid #e6e6e6;
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    background-color: buttonface;
+    box-sizing: border-box;
+    font: 400 13.3333px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
 }
 
-button#sign_in {
-    width: 80px;
-    background: rgb(37, 130, 236);
-    margin: 0;
-    padding: 0;
-    height: 30px;
-    border-radius: 3px;
+#sign_in {
+    border: 1px;
+    border-style: solid;
+    border-color: #4285f4;
+    border-radius: 2px;
+    line-height: 28px;
+    padding: 0 12px;
     cursor: pointer;
     font-weight: bold;
+    color: #FFF;
+    background-color: #4387fd;
 }
 
 #main {

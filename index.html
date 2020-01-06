@@ -10,7 +10,7 @@
 <body id="hp">
 
     <nav>
-        <ul id="left-menu" class="upper">
+        <ul id="left-navbar" class="upper">
             <li>
                 <a href="#">About</a>
             </li>
@@ -19,7 +19,7 @@
             </li>
         </ul>
 
-        <ul id="right-menu" class="upper">
+        <ul id="right-navbar" class="upper">
             <li>
                 <a href="#">Gmail</a>
             </li>
@@ -27,28 +27,34 @@
                 <a href="#">Images</a>
             </li>
             <li>
-                <a href="#">Apps</a>
+              <a href="#">
+		<img id="apps-icon" src="/home/synthrr/the_odin_project/google-homepage/images/baseline_apps_black_48dp.png">
+	      </a>
             </li>
             <li>
-                <button id="sign_in">
-                    <a href="#">Sign In</a>
-                </button>
+                <button id="sign_in">Sign In</button>
             </li>
         </ul>
     </nav>
 
-    <div id="main" class="content">
+    <div id="main">
         <div id="hplogo">
-            <img id="glogo" alt="Google" src="/home/synthrr/the_odin_project/google-homepage/googlelogo_color_272x92dp.png">
+            <img id="glogo" alt="Google" src="/home/synthrr/the_odin_project/google-homepage/images/googlelogo_color_272x92dp.png">
+            <br>
         </div> 
-    </div>
-
-    <div id="searchform">
-        <form id="sb" action="search">
-            <div id="sbb">
+        <div id="searchbox">
+            <form id="sb" action="search"> 
                 <input class="sbti" maxlength="2048" type="text" title="search" value="" aria-label="Search">
-            </div>
-        </form>
+            </form>
+        </div>
+        <div id="button-area">
+            <button class="buttons" type="button">Google Search</button>
+            <button class="buttons" type="button">I'm Feeling Lucky</button>
+        </div>
+    </div>
+    <div id="bottom-nav">
+        <div id="upper-bottom"></div>
+        <div id="lower-bottom"></div>
     </div>
 </body>
 

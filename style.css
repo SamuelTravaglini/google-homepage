@@ -34,6 +34,35 @@ body {
     opacity: 0.75;
 }
 
+#apps-icon.searchappsimg {
+    top: 0px;
+}
+
+.appsicon2 {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    background-position: -64px -29px;
+    outline: none;
+    vertical-align: middle;
+    border-radius: 2px;
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    padding: 8px;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+
+.appsicon2:hover {
+    opacity: 1;
+    background-color: rgba(60,64,67,0.1);
+    outline: none;
+    border-radius: 50%;
+}
+
 nav ul {
     list-style-type: none;
 }

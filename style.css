@@ -17,6 +17,12 @@ body {
     top: 0px;
 }
 
+#right-navbar.navsetting {
+    margin-right: 21px;
+    margin-top: 25px;  
+}
+
+
 #search-left-navbar {
     position: relative;
     top: 21px;
@@ -99,6 +105,19 @@ nav li a {
     border-radius: 2px;
     line-height: 28px;
     padding: 0 12px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #4387fd;
+}
+
+#searchsignin {
+    border: 4px;
+    border-style: solid;
+    border-color: #4285f4;
+    border-radius: 4px;
+    line-height: 28px;
+    padding: 0 21px;
     cursor: pointer;
     font-weight: bold;
     color: #FFF;
@@ -209,6 +228,10 @@ p {
     width: 640px;
     padding-left: 27px;
     top: 20px;
+    
+}
+
+#search-middle-navbar {
     
 }
 

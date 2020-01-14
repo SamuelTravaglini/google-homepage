@@ -30,6 +30,16 @@ body {
     margin: 11px 1px 0;
 }
 
+#search-middle-navbar {
+    margin-left: 80px;
+}
+
+#end_nav {
+    position: relative;
+    border-bottom: 1px solid #ebebeb;
+    top: 56.5px;
+}
+
 .navsetting {
     display: inline-block;
 }
@@ -84,6 +94,12 @@ ul {
     padding-inline-start: 40px;
 }
 
+ul:hover {
+    color: #1A73E8;
+    cursor: pointer;
+
+}
+
 li {
     display: list-item;
     text-align: -webkit-match-parent;
@@ -92,12 +108,28 @@ li {
 nav li {
     display: inline;
     padding-right: 15px;
+    padding: 16px 12px 12px 10px;
+    height: 16px;
+    line-height: 16px;
+    margin: 11px 1px 0;
+    cursor: pointer;
+    color: #5f6368;
+}
+
+nav li:hover {
+    border-bottom: 3px solid #1A73E8;
+    color: #1A73E8;
+    cursor: pointer;
 }
 
 nav li a {
     text-decoration: none;
-    opacity: 0.7;
-    color: #000;
+    color: #5f6368;
+}
+
+nav li a:hover {
+    color: #1A73E8;
+    cursor: pointer;
 }
 
 #sign_in {
@@ -140,12 +172,9 @@ nav li a {
     align-items: baseline;
     display: flex;
     justify-content: space-between;
-    min-width: 782px;
+    min-width: 600px;
 }
 
-#top_nav_right {
-
-}
 
 #main {
     text-align: center;
@@ -182,16 +211,15 @@ img#glogo{
     margin-right: 12px;
 }
 
-#sbti {
+#searchti {
     background-color: transparent;
     width: 527px;
-    height: 34px;
+    height: 46px;
     border: none;
     margin-top: 8px;
     margin-right: 8px;
     font: 16px arial, sans-serif;
     position: relative;
-    bottom: 5px;
 }
 
 #button-area {
@@ -254,8 +282,23 @@ p {
     
 }
 
-#search-middle-navbar {
-    
+.all-icon {
+    display: block;
+    height: 100%;
+    width: 100%;  
+}
+
+.topicons {
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: text-bottom;
+    fill: #5f6368;
+}
+
+.topicons:hover {
+    color: #1A73E8;
 }
 
 #textinput {

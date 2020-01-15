@@ -90,7 +90,6 @@ svg {
     white-space: nowrap;
 }
 
-
 .appsicon2:hover {
     opacity: 1;
     background-color: rgba(60,64,67,0.1);
@@ -191,9 +190,12 @@ nav li a:hover {
     min-width: 600px;
 }
 
-
 #main {
-    text-align: center;
+    position: relative;
+    display: block;
+    min-width: 1101px;
+    top: 56.5px;
+    height: 43px;
 }
 
 #hplogo {
@@ -225,17 +227,6 @@ img#glogo{
     height: 20px;
     opacity: 40%;
     margin-right: 12px;
-}
-
-#searchti {
-    background-color: transparent;
-    width: 527px;
-    height: 46px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 8px;
-    font: 16px arial, sans-serif;
-    position: relative;
 }
 
 #button-area {
@@ -355,11 +346,39 @@ p {
 }
 
 #results_info {
-    position: relative;
+    position: absolute;
+    top: 0;
     height: 43px;
-    top: 131.5;
     margin-left: 150px;
     color: #70757a;
+    line-height: 43px;
+    padding-left: 16px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+#searcharea {
+    max-width: 1280px;
+    position: relative;
+    margin-left: 150px;
+    width: 632px;
+    margin-right: 264px;
+    top: 43px;
+}
+
+#ad-box {
+    box-sizing: border-box;
+    padding: 0 16px 0 16px;
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 632px;
+    height: 485px;
 }
 
 

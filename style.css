@@ -381,6 +381,28 @@ p {
     height: 485px;
 }
 
+.search_ads {
+    color: #1a0dab;
+    cursor: pointer;
+    line-height: 26px;
+    font-size: 20px !important;
+    display: inline-block;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdowninfo {
+    cursor: pointer;
+    border-color: #006621 transparent;
+    margin-top: 0px;
+    margin-left: 3px;
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+    display: inline-block;
+    line-height: 0;
+}
+
 
 input {
     -webkit-writing-mode: horizontal-tb !important;

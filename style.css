@@ -110,6 +110,16 @@ ul {
     padding-inline-start: 40px;
 }
 
+ol, li {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+ol li {
+    list-style: none;
+}
+
 ul:hover {
     color: #1A73E8;
     cursor: pointer;
@@ -452,8 +462,21 @@ p {
     text-decoration: underline;
 }
 
-#ad_one {
-    
+.ad-list {
+    margin-bottom: 27px;
+    position: relative;
+    color: #3C4043;
+    line-height: 22px;
+}
+
+.ads-creative {
+    position: relative;
+    top: -70px;
+    font-size: 14px;
+}
+
+.ads-creative b {
+    color: #52565A
 }
 
 

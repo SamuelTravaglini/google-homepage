@@ -406,6 +406,8 @@ p {
 
 .adlinks {
     text-decoration: none;
+    color: #1a0dab;
+    cursor: pointer;
 }
 
 .ad-icon {
@@ -478,6 +480,41 @@ p {
 .ads-creative b {
     color: #52565A
 }
+
+.extra-links {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border: 0;
+    margin: 0;
+    margin-top: -70px;
+    padding: 0;
+}
+
+h3 {
+    font-size: 20px !important;
+    line-height: 26px;
+}
+
+.extra-links li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    border: 0;
+}
+
+.bottom-ad-links {
+    text-decoration: none;
+    cursor: pointer;
+    color: #1a0dab;
+    font-size: 14px;
+}
+
+.extra-links>li+li::before {
+    content: ' . ';
+}
+
 
 
 input {
